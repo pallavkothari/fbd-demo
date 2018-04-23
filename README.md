@@ -31,7 +31,11 @@ Intro blurb from one of the comments on HN:
 > 
 > It's still the case that if you want great performance overall you want to minimize conflicts between transactions!
 
-### Local Repo
+## Local setup 
+
+Follow [this page](https://apple.github.io/foundationdb/local-dev.html) to install the server and get started. 
+
+### Local Maven Repo
 
 As of 4/19/18, the latest jars were not available on maven central, but you could grab them from the downloads page :P so we'll just add it to a local maven repo. 
 Grab the [jar](https://www.foundationdb.org/downloads/5.1.5/bindings/java/fdb-java-5.1.5.jar) and [javadoc](https://www.foundationdb.org/downloads/5.1.5/bindings/java/fdb-java-5.1.5-javadoc.jar) and do this:
